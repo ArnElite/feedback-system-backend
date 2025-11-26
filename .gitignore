@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Truffle build artifacts
+build/
+cache/
+artifacts/
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Ganache
+*.log
+ganache_db/
+# Ganache workspace backups
+*.ganchain
+*.ganache
+
+# Compiled contract JSON files (important!)
+/client/src/contracts/*.json
+
+# MetaMask / Private Keys (IMPORTANT)
+privatekey.txt
+keys.txt
+secrets.txt
+
+# Remix generated files
+remix-compiler/
+remix-logs/
+
+# VSCode
+.vscode/
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing output
+coverage/
+coverage.json
+
+# OS Temp files
+tmp/
+temp/
+*.tmp
+
+# Truffle migrations artifacts
+migrations/.deployments/
+.deployments/
+
+# Logs
+logs/
+*.log
+
+# Frontend build (if you add one later)
+dist/
+build/
+out/
+
