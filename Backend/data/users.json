@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "1764619773547",
+      "email": "user@example.com",
+      "password": "password123",
+      "accountIndex": 0,
+      "token": "882b6acc4cb343f98dd62bfe97c30a64dc540d8c431d009ded165618fee05692",
+      "createdAt": "2025-12-01T20:09:33.547Z"
+    }
+  ],
+  "nextAccountIndex": 1
+}
