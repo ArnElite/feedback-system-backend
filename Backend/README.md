@@ -2,6 +2,7 @@
 
 Backend API for the blockchain-based anonymous feedback system. This backend connects directly to Ganache blockchain and interacts with the deployed ReviewForum smart contract.
 
+note: if a user registers he doesnt need to login again till, just add the token to the header as a bearer token
 ## Setup Instructions
 
 ### 1. Install Dependencies
