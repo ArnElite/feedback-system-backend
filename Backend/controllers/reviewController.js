@@ -35,17 +35,17 @@ exports.submitReview = async (req, res) => {
 
     res.status(201).json({
       success: true,
-      message: 'Review submitted successfully',
+      // message: 'Review submitted successfully',
       data: {
-        ...result,
-        submittedBy: req.user.email
+        ...result
+        //submittedBy: req.user.email
       }
     });
   } catch (error) {
     console.error('Submit review error:', error);
     res.status(500).json({
       success: false,
-      message: 'Error submitting review',
+      message: 'Error',
       error: error.message
     });
   }

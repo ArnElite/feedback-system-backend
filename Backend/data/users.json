@@ -7,7 +7,15 @@
       "accountIndex": 0,
       "token": "882b6acc4cb343f98dd62bfe97c30a64dc540d8c431d009ded165618fee05692",
       "createdAt": "2025-12-01T20:09:33.547Z"
+    },
+    {
+      "id": "1764686582863",
+      "email": "user1@example.com",
+      "password": "password123",
+      "accountIndex": 1,
+      "token": "956b490f15df2afef078777d53137efe79e788b3d27b10888568d7d3ba5befbe",
+      "createdAt": "2025-12-02T14:43:02.863Z"
     }
   ],
-  "nextAccountIndex": 1
+  "nextAccountIndex": 2
 }
